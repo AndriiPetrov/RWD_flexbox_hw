@@ -186,9 +186,15 @@ footer section div:last-child{
         width: 30%;
         margin-right: 50px;
     }
+    .articles{
+        margin-right: 10px;
+    }
+    .boxes2{
+        margin-right: 10px;
+    }
 }
 
-@media(max-width: 376px){
+@media(max-width: 375px){
     .main-header{
         /* flex-direction: column; */
         /* justify-content: center; */
@@ -227,11 +233,16 @@ footer section div:last-child{
         width:100%;
         justify-content: space-around;
         align-items: center;
+        /* flex-wrap:nowrap; */
         height: 80px;
     }
     .boxes{
-        width: 15%;
+        width: 28%;
         margin-top: 0;
+        
+    }
+    .hiden{
+        display:none;
     }
     .content{
         width:100%;
