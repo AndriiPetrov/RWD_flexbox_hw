@@ -187,10 +187,11 @@ footer section div:last-child{
         margin-right: 50px;
     }
     .articles{
-        margin-right: 10px;
+        margin-right: 5px;
+        width:55%;
     }
     .boxes2{
-        margin-right: 10px;
+        margin-right: 5px;
     }
 }
 
